@@ -82,7 +82,7 @@ class DribbblePortfolioShotsWidget extends WP_Widget{
                  get_dribbble(playerId,column);
             </script>
        ";
-	   $data .= "<div style='color:#ccc; font-size: 9px; text-align:right;'><a href='http://www.crayfishstudios.com/' title='click here' target='_blank'>dallas web designer</a></div>";
+	   $data .= "<div style='color:#ccc; font-size: 9px; text-align:right;'><a href='http://www.crayfishstudios.com/' title='Crayfish Studios' target='_blank'>Crayfishstudios.com</a></div>";
         echo $before_widget;
         echo $before_title . $title . $after_title;
             echo $data;
